@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      uri: "mongodb://bob:@Todo@127.0.0.1:27017"
+      database: "test"
+server:
+  port: 8088
+naver:
+  clientId:
+  clientSecret:
+logging:
+  level:
+    org.springframework.web.reactive.function.client.ExchangeFunctions: DEBUG
